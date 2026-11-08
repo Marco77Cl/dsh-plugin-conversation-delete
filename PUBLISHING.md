@@ -1,7 +1,9 @@
 # Publishing checklist
 
-The plugin is built, packed, and installed in the local Desktop profile. What is
-left is the public release, which needs credentials this machine does not have.
+Status (2026-11-08): published to GitHub as a public repository with a `v0.1.0`
+release containing the prebuilt tarball, plus a validated format-1 Discover
+index. npm publishing is still pending; the community catalog submission
+(`awesome-dsh-plugin`) waits for the repository's 1-day age gate.
 
 ## 1. Publish to npm
 
@@ -66,12 +68,10 @@ There are two market surfaces in this build, and neither has a single official
    Listing is therefore: publish to npm first, then get the entry into that
    catalog (its repository accepts additions).
 
-## 3. Repository
+## 3. Published locations
 
-`package.json` points at `https://github.com/Marco77Cl/dsh-plugin-conversation-delete`.
-The repository has not been created yet. Once it exists, push:
+- Repository: <https://github.com/Marco77Cl/dsh-plugin-conversation-delete>
+- Release: <https://github.com/Marco77Cl/dsh-plugin-conversation-delete/releases/tag/v0.1.0>
+- Discover index (pinned): `https://cdn.jsdelivr.net/gh/Marco77Cl/dsh-plugin-conversation-delete@f29f833c52a175c0d03a1dd93196cf2e7f7b3a80/index.json`
 
-```sh
-git remote add origin https://github.com/Marco77Cl/dsh-plugin-conversation-delete.git
-git push -u origin main
-```
+Add the index URL under **Plugins → Discover → Index sources**.
