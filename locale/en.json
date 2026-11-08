@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Delete conversation",
+    "description": "Permanently delete a conversation from its ⋯ menu: session log, projection cache, and sidebar entry."
+  }
+}

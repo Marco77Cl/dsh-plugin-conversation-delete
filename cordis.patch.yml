@@ -1,0 +1,4 @@
+# dsh bundle patch: adds the Host deletion route and its Web UI entry.
+- insert:
+    - id: session-delete
+      name: 'dsh-plugin-conversation-delete'
