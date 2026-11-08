@@ -1,0 +1,54 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Marco77Cl DSH plugins",
+    "zh": "Marco77Cl DSH 插件"
+  },
+  "description": {
+    "en": "Small, focused DeepSeek Harness plugins by Marco77Cl.",
+    "zh": "Marco77Cl 的 DeepSeek Harness 小插件。"
+  },
+  "metadata": {
+    "categories": {},
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "dsh-plugin-conversation-delete",
+      "title": {
+        "en": "Delete conversation",
+        "zh": "删除对话"
+      },
+      "description": {
+        "en": "Permanently delete a conversation from its ⋯ menu: session log, projection cache, and sidebar entry.",
+        "zh": "在对话的 ⋯ 菜单里永久删除一条对话：会话日志、投影缓存和侧栏条目一并清除。"
+      },
+      "icon": "https://raw.githubusercontent.com/Marco77Cl/dsh-plugin-conversation-delete/main/icon.svg",
+      "author": "Marco77Cl",
+      "homepage": "https://github.com/Marco77Cl/dsh-plugin-conversation-delete",
+      "repository": {
+        "url": "https://github.com/Marco77Cl/dsh-plugin-conversation-delete"
+      },
+      "metadata": {
+        "keywords": ["dsh", "session", "delete", "conversation"],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794140434,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Marco77Cl/dsh-plugin-conversation-delete",
+            "commit": "4d589ce0088d97dd2538de216a60c792d649cf2a"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <1.0.0"
+          }
+        }
+      ]
+    }
+  ]
+}
