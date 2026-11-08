@@ -30,8 +30,6 @@ confirmation dialog.
 
 - **Running work is never deleted underneath itself.** If the conversation is
   active, the plugin refuses and tells you what is still running. Stop it first.
-- **The conversation currently open in DSH is refused** (switch to another
-  conversation first), so nothing is deleted under its own reader.
 - Only the owner browser can call the route. The endpoint is registered through
   the Host Connection's exact-Fetch registry, so it sits behind the same
   browser cookie, Host/Origin check, and owner-Peer gate as the rest of `/api`.
