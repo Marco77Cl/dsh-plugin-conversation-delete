@@ -24,7 +24,7 @@
         "en": "Permanently delete a conversation from its ⋯ menu: session log, projection cache, and sidebar entry.",
         "zh": "在对话的 ⋯ 菜单里永久删除一条对话：会话日志、投影缓存和侧栏条目一并清除。"
       },
-      "icon": "https://raw.githubusercontent.com/Marco77Cl/dsh-plugin-conversation-delete/main/icon.svg",
+      "icon": "https://cdn.jsdelivr.net/gh/Marco77Cl/dsh-plugin-conversation-delete@main/icon.svg",
       "author": "Marco77Cl",
       "homepage": "https://github.com/Marco77Cl/dsh-plugin-conversation-delete",
       "repository": {
