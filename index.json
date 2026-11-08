@@ -31,7 +31,12 @@
         "url": "https://github.com/Marco77Cl/dsh-plugin-conversation-delete"
       },
       "metadata": {
-        "keywords": ["dsh", "session", "delete", "conversation"],
+        "keywords": [
+          "dsh",
+          "session",
+          "delete",
+          "conversation"
+        ],
         "labels": [],
         "sortKeys": {}
       },
@@ -42,7 +47,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/Marco77Cl/dsh-plugin-conversation-delete",
-            "commit": "4d589ce0088d97dd2538de216a60c792d649cf2a"
+            "commit": "5c3d82412b79830db606c0447888ae25e791247e"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.1 <1.0.0"
