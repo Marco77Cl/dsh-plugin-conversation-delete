@@ -47,8 +47,11 @@ dsh plugin --profile <profile> add dsh-plugin-conversation-delete
 ```
 
 Then enable the bundle in **Plugins** if your host does not enable new bundles
-automatically, and refresh the page. (Not published to npm yet — see the
-repository's release notes.)
+automatically, and refresh the page.
+
+Published on npm as
+[`dsh-plugin-conversation-delete`](https://www.npmjs.com/package/dsh-plugin-conversation-delete),
+so the install is prebuilt — no build step and no `allowBuilds` approval.
 
 ### Local build
 
@@ -56,7 +59,7 @@ repository's release notes.)
 git clone https://github.com/Marco77Cl/dsh-plugin-conversation-delete.git
 cd dsh-plugin-conversation-delete
 npm pack
-dsh plugin --profile <profile> add file:$(pwd)/dsh-plugin-conversation-delete-0.1.0.tgz
+dsh plugin --profile <profile> add file:$(pwd)/dsh-plugin-conversation-delete-*.tgz
 ```
 
 For DSH Desktop, install through the app's plugin manager (or the plugin

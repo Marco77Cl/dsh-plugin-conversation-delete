@@ -1,6 +1,6 @@
 {
   "name": "dsh-plugin-conversation-delete",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Right-click (⋯) any conversation in DSH and permanently delete it — log, projection cache, and workspace entry.",
   "icon": "./icon.svg",
   "type": "module",
